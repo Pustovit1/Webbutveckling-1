@@ -5,8 +5,12 @@ ol{
 li{
     color: #ff2f2f;
     display: inline-block;
-    
 }
 body{
     background-color: beige;
+}
+li.första{
+    color: violet;
+    font-size: 50px;
+    
 }
