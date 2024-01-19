@@ -12,9 +12,7 @@
     font-family: "Rubrik Burned", sans-serif;
 
 }
-body{
+#div{
     background-image: url("bild.jpg");
-    background-size: 50%;
-    background-repeat: repeat;
-    
+    height: 50vh;
 }
