@@ -3,7 +3,8 @@
   div:ar som är spelare.
 */
 .field-wrapper {
-    position: relative;
+  position: sticky;
+  top: 0;
   }
   
   /*
