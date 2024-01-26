@@ -1,0 +1,68 @@
+/*
+  Den här klassen innehåller bilden på fortbollsplanen samt alla
+  div:ar som är spelare.
+*/
+.field-wrapper {
+    position: relative;
+  }
+  
+  /*
+    Den här klassen sätter storleken på bilden av fotbollsplanen.
+  */
+  .football-field {
+    width: 100%;
+  }
+  
+  /*
+    Den här klassen beskriver hur spelare ser ut, men positionerar dem inte.
+  */
+  .player {
+    position: absolute;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Consolas, sans-serif;
+    background-color: white;
+}
+
+.goalie{
+    top: 47.5%;
+    left: 1%;
+}
+
+.back{
+  left: 20%;
+}
+
+.midfield{
+left: 33%;
+}
+
+.forward{
+  left: 45%
+}
+
+.left-wing{
+  top: 15%;
+}
+
+.right-wing{
+  top: 80%;
+}
+
+.central-left{
+  top: 35%;
+}
+
+.central-right{
+  top: 60%;
+}
+.left{
+  top: 25%;
+}
+.right{
+  top: 70%;
+}
