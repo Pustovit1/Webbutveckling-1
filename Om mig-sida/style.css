@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+    position: relative;
+    margin: 0;
+}
+
+#välkomen{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+.över{
+    position:sticky;
+    height: 30px;
+    background-color:lightgreen;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.länk{
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 0px 13.65%;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+img{
+    height:auto;
+    width: 25%;
+}
+
+h1, h2, p, li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
+
+.Cursive{
+    font-weight: 700;
+    font-family: cursive;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+}
