@@ -17,6 +17,7 @@ body{
     top: 0;
     width: 100%;
     white-space: nowrap;
+    
 }
 
 .länk{
@@ -32,9 +33,20 @@ body{
     border-width: 1px; 
 }
 
+.uniform{
+    width: 100%;
+    position: relative;
+    height: 700px;
+}
+
+.uniform img{
+    height: 100%;
+}
+
 img{
-    height:auto;
-    width: 25%;
+    height: auto;
+    width: 30%;
+    border-radius: 15%;
 }
 
 h1, h2, p, li{
