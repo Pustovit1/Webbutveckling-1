@@ -15,9 +15,9 @@ body{
     background-color:lightgreen;
     padding: 0;
     top: 0;
-    width: 100%;
+    width: 99%;
     white-space: nowrap;
-    
+    z-index: 3;
 }
 
 .länk{
@@ -55,7 +55,7 @@ img{
     border-radius: 15%;
 }
 
-h1, h2, p, li{
+h1, p, li{
     
     font-family: 'Courier New', Courier, monospace;
     font-size: 120%;
