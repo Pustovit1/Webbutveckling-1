@@ -1,0 +1,36 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    background-color: darkslategray;
+    height: 200px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+  }
+  
+  .block {
+    width: 98px;
+    height: 10em;
+    background-color: cadetblue;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+  }
+  
+  .block-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+@media screen and (max-width: 992px) {
+    
+}
