@@ -32,5 +32,10 @@ body {
   }
 
 @media screen and (max-width: 992px) {
-    
+    .block-container{
+        display: flex;
+    }
+    .block{
+        display: inline;
+    }
 }
