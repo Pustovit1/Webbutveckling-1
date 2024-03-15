@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olika upplösningar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      src="city-original.jpg"
+      alt="city"
+      srcset="
+        city-low.jpg       414w,
+        city-midle.jpg    1280w,
+        city-high.jpg     1320w,
+        city-original.jpg 2000w
+      "
+      loading="lazy"
+    />
+    <div></div>
+    <img
+      src="space-original.jpg"
+      alt="Space"
+      srcset="
+        space-low.jpg       414w,
+        space-midle.jpg    1280w,
+        space-high.jpg     1920w,
+        space-original.jpg 2000w
+      "
+      loading="lazy"
+    />
+    <div></div>
+    <img
+      src="street-original.jpg"
+      alt="Street"
+      srcset="
+        street-low.jpg       414w,
+        street-midle.jpg    1280w,
+        street-1920.jpg     1920w,
+        street-original.jpg 2000w
+      "
+      loading="lazy"
+    />
+  </body>
+</html>

@@ -1,0 +1,34 @@
+body{
+    background-color: lightblue;
+}
+.wsad {
+    text-align: center;
+    width: 15%;
+    margin-left: 45%;
+}
+
+.button:hover{
+    background-color: blueviolet;
+    transition: linear 1s;
+}
+.button{
+   background-color: brown;
+   border: 2px;
+   padding: 15px;
+   margin: 15px;
+   
+}
+
+.snow{
+    font-size: 300px;
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my-animation{
+    from {color:cyan; 
+    transform: translateY(0vh) rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+    to {color: white;
+    transform: translateY(50vh) rotateX(45deg) rotateY(120deg) rotateZ(150deg)}
+}
